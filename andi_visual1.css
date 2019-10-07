@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*  
+   Reset Style Sheet for Andi Lynn Styles
+
+   
+   Filename:andi_visual1.css
+   Author: Ashlynn Hickman
+   Date: 9/4/2019
+
+*/
+
+
+/* Figure Box Styles */
+figure{
+    margin: 20px auto 0px;
+    width: 80%;
+    border-style: solid;
+    border-width: 25px;
+    border-image: url(backgrounds/background3.png) 50 repeat;
+}
+figure img{
+    display: block;
+    width: 100%;
+ }
+
+/* HTML Styles */
+html{
+    background-image: url(backgrounds/background3.png);
+}
