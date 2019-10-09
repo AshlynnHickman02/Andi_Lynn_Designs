@@ -14,6 +14,7 @@
     <title>Andi Lynn Designs</title>
     <link href="andi_reset.css" rel="styleSheet" />
     <link href="andi_styles1.css" rel="styleSheet" />
+    <link href="andi_visual1.css" rel="styleSheet" />
     <link href="https://fonts.googleapis.com/css?family=Yesteryear&display=swap" rel="stylesheet">
 </head>
 
@@ -21,13 +22,17 @@
     <header>
         <img src="top_pic.png" alt="Andi Lynn Products" id="topBorder" />
         <nav class="horizontal" id="mainLinks">
-            <img src="logo.png" alt="Andi Lynn Designs" id="logo" />
+            <!--<img src="logo.png" alt="Andi Lynn Designs" id="logo" />-->
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="appointments.html">Avaliable Appointments</a></li>
                 <li><a href="specials.html">Specials</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="appointments.html">Avaliable Appointments</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
+
+
+
+
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
@@ -35,78 +40,69 @@
 
     <article>
         <header>
-            <h1>Andi Lynn Designs</h1>
-            <figure>
-                <img src="andi_lynn.jpg" alt="Andrea Hickman" />
-            </figure>
-            <figcaption>Andrea Hickman</figcaption>
+            <div class="col-1-1">
+                <section id="about">
+                    <h1> About Andi Lynn Designs</h1>
+                    <p>
+                        Customized Tumblers. Made with stainless steel vacuum sealed tumblers, glitter and/or paint
+                        and
+                        sealed
+                        with a FDA complaint epoxy
+                        We are able to do custom orders. Shirts, cups, mugs, tumblers, wood work.
+                    </p>
+                </section>
+            </div>
+            <div class="col-2-1">
+                <h1 id="mainTitle">Andi Lynn Designs</h1>
+                <figure>
+                    <img src="andi_lynn.jpg" alt="Andrea Hickman" />
+                </figure>
+                <figcaption>Andrea Hickman</figcaption>
+            </div>
         </header>
-
-        <section id="about">
-            <h1> About Andi Lynn Designs</h1>
-            <p>
-                Customized Tumblers. Made with stainless steel vacuum sealed tumblers, glitter and/or paint and sealed
-                with a FDA complaint epoxy
-                We are able to do custom orders. Shirts, cups, mugs, tumblers, wood work.
-            </p>
-        </section>
-
-        <!--<aside>
-            <nav id="seasonal">
-                <h1>Seasonal Products</h1>
-                <ul>
-                    <li><h2>Spring</h2></li>
-                    <ul>
-                        <li><a href="easter.html">Easter</a></li>
-                    </ul>
-                    <li><a href="#">Fall</a></li>
-                    <li><a href="#">Timeline</a></li>
-                    <li><a href="#">Message Board</a></li>
-                    <li><a href="#">Extended Family</a></li>
-                    <li class="newGroup"><a href="tb_genta.html">Genta (1938 - 2011)</a>
-                    <li>
-                    <li><a href="tb_mika.html">Mika (b. 1943)</a></li>
-                    <li><a href="tb_ikko.html">Ikko (b. 1969)</a></li>
-                    <li><a href="tb_suzuko.html">Suzuko (Endo) (b. 1973)</a></li>
-                    <li><a href="tb_hiroji.html">Hiroji (b. 2003)</a></li>
-                </ul>
-            </nav>
-        </aside>-->
-
+        <table>
+            <tr>
+                <th>
+                    <section id="reviews">
+                        <h1>Kelly Buick</h1>
+                        <blockquote>"I absolutely love my new Tumblr, it is beautiful and everybody that sees it asked
+                            me where I got it
+                            from. She does amazing work and it is worth every cent."</blockquote>
+                    </section>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <section id="reviews">
+                        <h1>Amanda Marie</h1>
+                        <blockquote>Amanda Marie
+                            "I love my nightmare before Christmas cup! I get so many compliments, and them asking where
+                            I got it
+                            from!! Best cup I’ve ever gotten!"</blockquote>
+                    </section>
+                </th>
+            </tr>
+            <th>
+                <section id="reviews">
+                    <h1>Julie Calza</h1>
+                    <blockquote>
+                        Andi made a custom order cup for me. It was made to the T without so much as one piece of
+                        glitter
+                        out of place. The work was very detail oriented, and professional. The cup is tougher than I
+                        expected
+                        from a custom cup. No cheap materials here, and Andi herself is very professional treating every
+                        piece as if it's a true piece of art; putting care into it, and making it as personal as
+                        possible.
+                        Super happy and will be ordering again! Thanks Andi!"</blockquote>
+                </section>
+            </th>
+            </tr>
+        </table>
     </article>
-
-
-    <!--<footer>
-        <nav class="vertical">
-            <ul>
-                <li><a href="#">Family Histories</a></li>
-                <li><a href="#">Family Trees</a></li>
-                <li><a href="#">Galleries</a></li>
-                <li><a href="#">Calendars</a></li>
-                <li><a href="#">Forums</a></li>
-            </ul>
-        </nav>
-        <nav class="vertical">
-            <ul>
-                <li><a href="#">Getting Started</a></li>
-                <li><a href="#">Genealogy FAQ</a></li>
-                <li><a href="#">Research Sites</a></li>
-                <li><a href="#">Interest Groups</a></li>
-                <li><a href="#">Government Sites</a></li>
-            </ul>
-        </nav>
-        <nav class="vertical">
-            <ul>
-                <li><a href="#">About Tree and Book</a></li>
-                <li><a href="#">Developers</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </nav>
-        <section>Tree and Book &copy; 2017 English (US)</section>
-    </footer>-->
-
 </body>
+<footer id=footer>
+    <img src="instagram_logo.png"> &#9829; Andi Lynn Designs &#9829; <img src="facebook_logo.png">
+</footer>
+
 
 </html>
