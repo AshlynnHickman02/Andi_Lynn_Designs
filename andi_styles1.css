@@ -71,9 +71,6 @@ figure img{
 }
 
 /* nav styles */
-nav{
-    background-color: rgb(253,229,219);
-}
 img#logo{
     max-height: 100px;
     max-width: 100px;
@@ -84,17 +81,19 @@ img#topBorder{
 nav#mainLinks{
     display: block;
     background: rgb(51, 51, 51);
+    width: 100%;
 }
 nav#mainLinks a:link, nav#mainLinks a:visited {
-    color: rgb(253,229,219);
+    color: white;
     background-color: rgb(51, 51, 51);
+    width: 100%;
 }
 
 nav#mainLinks a:hover, nav#mainLinks a:active {
     color: rgb(19, 16, 9);
     background-color: rgb(34, 34, 34);
     display: block;
-
+    width: 100%;
 }
 
 nav#mainLinks ul li {
@@ -112,6 +111,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
+    box-shadow:rgb(133, 133, 133) 10px -10px 10px,
+                rgb(133, 133, 133) -10px 10px 10px;
 }
 section#about{
     width: 100%;
@@ -126,7 +127,11 @@ section{
     background: rgb(253,229,219);
     padding: 50px;
 }
-th{
+section#about a{
+    text-decoration: none;
+    font-variant: small-caps;
+}
+th {
     background: rgb(253,229,219);
     padding: 10px;
     border-radius: 15px;
@@ -148,7 +153,6 @@ footer img{
     width: 3%;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-    display: bl;
     padding: 5px;
 }
 
