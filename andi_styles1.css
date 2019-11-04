@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*  
-   Style Sheet for Andi Lynn Styles
+   Style Sheet 1 for Andi Lynn Designs
 
    Filename: andi_styles1.css
    Author: Ashlynn Hickman
@@ -9,42 +9,11 @@
 
 */
 
-/*html styles*/
-@font-face{
-    font-family: 'Yesteryear';
-    src: url(Yesteryear-Regular.ttf) format('ttf'),
-    url(Yesteryear-Regular.woff) format('woff'),
-    url(Yesteryear-Regular.woff2) format('woff2');
-}
-
-html {
-    background-image: url(backgrounds/background3.png);
-    background-size: 100%;
-    background-attachment: fixed;
-    color: rgb(51, 51, 51);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Header Styles*/
-h1{
-    font-family: 'Yesteryear', cursive;
-    font-size: 25px;
-    padding: 10px;
-}
-h1#mainTitle{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 30px; 
-    display: block;
-    text-shadow: #666666 -3px 1px 5px;
-}
-img#topBorder{
-    margin: auto;
-    display: block;
-    width: 700px;
-}
-
 /* Figure Styles*/
+figure img{
+    display: block;
+	width: 100%;
+}
 div.col-2-1{
     border-style: solid;
     border-width: 10px;
@@ -56,64 +25,19 @@ figcaption{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-
 }
-figure{
+figure#pic{
     margin: 20px auto 0px;
     width: 50%;
     border-style: solid;
     border-width: 25px;
     box-shadow: #666666 -3px 1px 5px ;
 }
-figure img{
+figure#pic img{
     display: block;
-    width: 50%;
 }
 
-/* nav styles */
-img#logo{
-    max-height: 100px;
-    max-width: 100px;
-}
-img#topBorder{
-    background: cover;
-}
-nav#mainLinks{
-    display: block;
-    background: rgb(51, 51, 51);
-    width: 100%;
-}
-nav#mainLinks a:link, nav#mainLinks a:visited {
-    color: white;
-    background-color: rgb(51, 51, 51);
-    width: 100%;
-}
-
-nav#mainLinks a:hover, nav#mainLinks a:active {
-    color: rgb(19, 16, 9);
-    background-color: rgb(34, 34, 34);
-    display: block;
-    width: 100%;
-}
-
-nav#mainLinks ul li {
-	background-color: rgb(51, 51, 51);	
-	display: block;
-	float: right;
-	text-align: center;
-	width: 20%;	
-}
-
-/* Page Body Styles */
-body {
-    background-color: rgb(211, 211, 211);
-    font-family: Arial, Helvetica, sans-serif; 	
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    box-shadow:rgb(133, 133, 133) 10px -10px 10px,
-                rgb(133, 133, 133) -10px 10px 10px;
-}
+/* Body Styles */
 section#about{
     width: 100%;
     border-style: solid;
@@ -136,26 +60,6 @@ th {
     padding: 10px;
     border-radius: 15px;
 }
-
-
-/* Footer Styles */
-footer#footer{
-    background-color: rgb(211, 211, 211);
-    font-family: Arial, Helvetica, sans-serif; 	
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    font-style: italic;
-    text-align: center;
-    padding: 5px;
-}
-footer img{
-    width: 3%;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    padding: 5px;
-}
-
 /* Grid Rows Styles */
 div.row{
     clear: both;
